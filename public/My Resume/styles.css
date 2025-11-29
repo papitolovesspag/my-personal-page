@@ -1,0 +1,97 @@
+.gradient-background {
+    background: linear-gradient(
+      300deg,
+      #032B68 0%,
+      #063B7A 25%,
+      #13B596 60%,
+      #8A3CFF 100%
+    );
+    background-size: 250% 250%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .white {
+    color: #FFFFFF;
+  }
+  
+  
+  .btn-primary {
+    background-color: #8A3CFF;
+    color: #FFFFFF;
+    border: none;
+  }
+  
+  .font1 {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  .font2 {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .font3 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  .svgwhite {
+    color: #FFFFFF;
+  }
+  
+  .profile-image {
+    float: left;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+  }
+  
+  .opacity1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./assets/images/professionalsummary.png');
+    background-size: cover;
+    /* Other styles */
+  }
+  
+  .opacity2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/images/certificate.png');
+    background-size: cover;
+    /* Other styles */
+  }
+  
+  .opacity3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/images/cooking.jpg');
+    background-size: cover;
+    /* Other styles */
+  }
+  
+  @media(max-width: 576px) {
+    .hobby1, .hobby2 {
+      margin-bottom: 24px;
+    }
+  
+    .profile-image {
+      margin-bottom: 20px;
+      border-radius: 50%;
+    }
+  }
